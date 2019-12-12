@@ -125,6 +125,7 @@ output application/json
     </flow>
     <flow name="get:\sampledata:sampleprojectforall-config">
         <set-payload value='#["it will show how to sign in"]' doc:name="Set Payload" doc:id="febcf3f2-bc7c-4602-a856-fc9493d86236" />
+		<logger level="INFO" doc:name="Logger" doc:id="ff8a972e-cc3f-4103-8ace-6099e1f5d198" message="ok done...github"/>
     </flow>
     <flow name="get:\sampledata\(signup):sampleprojectforall-config">
         <set-payload value='#["pls sign in"]' doc:name="Set Payload" doc:id="26b4c6cf-4dd7-45ae-a8a3-f9879af85871" />
