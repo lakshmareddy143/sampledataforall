@@ -1,0 +1,18 @@
+#%RAML 1.0
+title: sampleprojectforall
+baseUri: http://localhost:8081/api
+/sampledata:
+  get: 
+    responses: 
+      200:
+        body: 
+          application/json: 
+            example: !include examples/sampledata-get-response.json
+
+  /{signup}:
+    get:
+      responses: 
+        200:
+          body: 
+            application/json: 
+               example: !include examples/signin-get-response.json
