@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mycompany</groupId>
-	<artifactId>sampleprojectforproxyandgithuband</artifactId>
+	<artifactId>sampleprojectforproxyandgithub</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule-application</packaging>
 
-	<name>sampleprojectforproxyandgithuband</name>
+	<name>sampleprojectforproxyandgithub</name>
 
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -30,7 +30,7 @@
 						<muleVersion>4.2.2</muleVersion>
 						<username>RAVI234</username>
 						<password>Ravi@143</password>
-						<applicationName>sampleprojectfoall</applicationName>
+						<applicationName>cicdapplication</applicationName>
 						<environment>Sandbox</environment>
 			     		<workerType>Micro</workerType> 
 			       		<workers>1</workers>
